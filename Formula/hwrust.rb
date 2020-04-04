@@ -4,9 +4,9 @@
 class Hwrust < Formula
   desc "Hello World With Github Actions"
   homepage "https://github.com/atmnk/hwrust"
-  url "https://github.com/atmnk/hwrust/releases/download/v0.0.6/hwrust.tar.gz"
-  sha256 "a1010d2d08387d6c1a3c2427557d44a00b2ac79e6716c9ccba85251291a20e66"
-  version "0.0.6"
+  url "https://github.com/atmnk/hwrust/releases/download/v0.0.14/hwrust.tar.gz"
+  sha256 "14bcaf694a0aa3542ca428f12488e0f63175e8d575dec4e42a2b5d174b421f93"
+  version "0.0.16"
 
   def install
     bin.install "hwrust"
